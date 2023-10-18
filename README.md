@@ -10,6 +10,9 @@ This script is used as a custom default email client. Instead of a random click 
 This script is basically the same as dummybrowser, except it's specifically for use with Pidgin, and has a different logfile. It also used to have slightly different behaviour in the past, but not right now.
 
 ## Archives
+### stripextension
+A helper script that returns file name without the extension.
+
 The following are intended to be registered to your file manager's context menu.
 ### extractall
 This script is a wrapper for xarchiver, which extracts selected archives to current directory, into directories named after the archive. There's a very basic logging functionality.
