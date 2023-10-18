@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ $# -eq 1 ]; then
+	streamlink --player-passthrough hls "$1" best > /dev/null 2>&1 &
+	exit
+else
+	echo usage:
+	echo "$0 url"
+fi
+exit 1
