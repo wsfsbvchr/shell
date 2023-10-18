@@ -1,0 +1,4 @@
+#!/bin/bash
+echo -n "$@" | xsel -i -b
+echo "$@" >> /dev/shm/tmp/pidgin-clipboard.txt
+exit 0
