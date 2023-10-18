@@ -1,5 +1,5 @@
 # shell
-A collection of shell scripts
+A collection of shell scripts, grouped by intended use.
 
 ## System level
 ### dummybrowser
@@ -14,8 +14,8 @@ A helper script that returns file name without the extension. Requires rev and c
 ## Archives
 The following are intended to be registered to your file manager's context menu.
 ### extractall
-This script is a wrapper for xarchiver, which extracts selected archives to current directory, into directories named after the archive. There's a very basic logging functionality. Requires stripextension.
+This script is a wrapper for xarchiver, which extracts selected archives to current directory, into directories named after the archive. Requires cut and rev, which are part of GNU coreutils and util-linux respectively.
 ### extractall_to
-This script is a wrapper for xarchiver, which extracts selected archives to a specified location, into directories named after the archive. There's a very basic logging functionality. Requires stripextension.
+This script is a wrapper for xarchiver, which extracts selected archives to a specified location, into directories named after the archive. Requires cut and rev, which are part of GNU coreutils and util-linux respectively.
 ### extractall_tmp
-This script is a wrapper for xarchiver, which extracts selected archives to a temporary directory, into directories named after the archive. There's a very basic logging functionality. Requires stripextension.
+This script is a wrapper for xarchiver, which extracts selected archives to a temporary directory, into directories named after the archive. Requires cut and rev, which are part of GNU coreutils and util-linux respectively.
