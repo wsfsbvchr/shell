@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ "$#" -eq "1" ] && [ ! -z "${1##*[!0-9]*}" ] && [ "$1" -ge "1" ]; then
+	frames=$1
+else
+	frames=1
+fi
+
+fswebcam -d V4L2:/dev/video0 -i 0 -p JPEG -r 640x480 -F "$frames" -R --no-banner "`date +%s`.jpg"
