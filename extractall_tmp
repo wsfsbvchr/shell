@@ -1,0 +1,8 @@
+#!/bin/bash
+target=/dev/shm/tmp
+for var in "$@"
+do
+	filename="`stripextension \"$var\"`"
+	xarchiver -x "$target/`basename \"$filename\"`" "$var"
+	echo xarchiver -x "$target/`basename \"$filename\"`" "$var" >> /dev/shm/tmp/eatmp.log
+done
