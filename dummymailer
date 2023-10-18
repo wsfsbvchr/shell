@@ -1,0 +1,4 @@
+#!/bin/bash
+echo -n "$@" | xsel -i -b
+echo "$@" >> /dev/shm/tmp/dummymailer.txt
+exit 0
