@@ -1,0 +1,6 @@
+#!/bin/bash
+for var in "$@"
+do
+	xarchiver -x "`stripextension \"$var\"`" "$var"
+	echo xarchiver -x "`stripextension \"$var\"`" "$var" >> /dev/shm/tmp/ea.log
+done
