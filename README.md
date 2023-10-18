@@ -30,3 +30,7 @@ This script initiates streamlink and opens mpv for the stream.
 This script initiates streamlink and opens mpv. Specifically crafted for Twitch VODs.
 ### twitchhls
 Another variant which uses doesn't force the use of mpv.
+
+## random
+### webcam
+Uses fswebcam to capture an image through V4L2 and /dev/video0. Tuned for an old webcam of mine, highly adjustable.
