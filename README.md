@@ -22,5 +22,11 @@ This script is a wrapper for xarchiver, which extracts selected archives to a sp
 ### extractall_tmp
 This script is a wrapper for xarchiver, which extracts selected archives to a temporary directory, into directories named after the archive.
 
-## Streamlink
-The following are wrappers for [streamlink](/streamlink/streamlink).
+## streamlink
+The following are wrappers for [streamlink](https://github.com/streamlink/streamlink).
+### hlsmpv
+This script initiates streamlink and opens mpv for the stream.
+### twitchmpv
+This script initiates streamlink and opens mpv. Specifically crafted for Twitch VODs.
+### twitchhls
+Another variant which uses doesn't force the use of mpv.
